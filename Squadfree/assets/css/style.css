@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
   background: transparent;
 }
 #header.header-scrolled {
-  background: rgba(55, 142, 181, 0.9);
+  background: rgba(9, 255, 0, 0.9);
   padding: 12px;
 }
 #header .logo h1 {
