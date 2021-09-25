@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
   background: transparent;
 }
 #header.header-scrolled {
-  background: rgba(9, 255, 0, 0.9);
+  background: rgba(50,169,86, 0.87);
   padding: 12px;
 }
 #header .logo h1 {
@@ -245,7 +245,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(101, 252, 81, 0.5), rgba(62, 240, 56, 0.2)), url("../img/hero-bg.jpg") top center;
+  background: linear-gradient(rgba(59, 169, 81, 0.5), rgba(59, 169, 81, 0.2)), url("../img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
   margin-bottom: -90px;
@@ -334,7 +334,7 @@ section {
   font-weight: bold;
   position: relative;
   margin-bottom: 30px;
-  color: #288a0a;
+  color: #2493c7;
   z-index: 2;
 }
 .section-title h2::after {
@@ -581,7 +581,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(59,169, 86, 0.7), rgba(59,170,90, 0.8)), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -834,75 +834,6 @@ section {
   background-color: #67b0d1;
 }
 
-/*--------------------------------------------------------------
-# Team
---------------------------------------------------------------*/
-.team .member {
-  text-align: center;
-  margin-bottom: 80px;
-  position: relative;
-}
-.team .member .pic {
-  overflow: hidden;
-}
-.team .member .member-info {
-  position: absolute;
-  top: 85%;
-  left: 20px;
-  right: 20px;
-  background: #fff;
-  padding: 20px 0;
-  color: #2f4d5a;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  max-height: 95px;
-  overflow: hidden;
-  transition: max-height 0.5s ease-in-out;
-}
-.team .member:hover .member-info {
-  max-height: 300px;
-}
-.team .member h4 {
-  font-weight: 700;
-  margin-bottom: 10px;
-  font-size: 16px;
-  color: #2f4d5a;
-  position: relative;
-  padding-bottom: 10px;
-}
-.team .member h4::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 1px;
-  background: #b1cbd7;
-  bottom: 0;
-  left: calc(50% - 25px);
-}
-.team .member span {
-  font-style: italic;
-  display: block;
-  font-size: 13px;
-}
-.team .member .social {
-  margin-top: 15px;
-}
-.team .member .social a {
-  transition: color 0.3s;
-  color: #52869d;
-}
-.team .member .social a:hover {
-  color: #67b0d1;
-}
-.team .member .social i {
-  font-size: 16px;
-  margin: 0 2px;
-}
-@media (max-width: 992px) {
-  .team .member {
-    margin-bottom: 110px;
-  }
-}
 
 /*--------------------------------------------------------------
 # Contact
